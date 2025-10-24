@@ -1,8 +1,9 @@
 header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 37px 48px;
+  padding: 38px 48px;
   background-color: var(--background-tertiary-color);
   position: relative;
 }
@@ -13,11 +14,11 @@ header {
   height: 64px;
 }
 
-.logo-desktop {
+.img-desktop {
   display: block;
 }
 
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 
