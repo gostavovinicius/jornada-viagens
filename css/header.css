@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 37px 48px;
   background-color: var(--background-tertiary-color);
   position: relative;
@@ -11,6 +11,14 @@ header {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+.logo-desktop {
+  display: block;
+}
+
+.logo-desktop {
+  display: none;
 }
 
 .navigation-menu {
@@ -68,5 +76,33 @@ nav {
 
   .navigation-menu li {
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 120px;
+  }
+  .logo {
+    width: 260px;
+    height: 64px;
+  }
+
+  .img-desktop {
+    display: block;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .list-links a:hover {
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 38px 160px;
   }
 }
