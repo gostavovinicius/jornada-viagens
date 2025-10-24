@@ -5,14 +5,15 @@
   height: 288px;
   box-sizing: border-box;
   border-radius: 16px;
-  padding: 24px 16px;
   text-align: center;
+  padding: 24px 16px;
 }
 
 .card header {
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
 }
 
 .card header p {
@@ -30,4 +31,11 @@
   display: inline-block;
   font-size: 32px;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
 }
