@@ -1,0 +1,76 @@
+.content-text {
+  margin: 24px 0;
+}
+
+.image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 254px 182px;
+  gap: 24px;
+}
+
+.bag {
+  background: url(../img/bag.jpg) no-repeat;
+  background-size: cover;
+}
+
+.passport {
+  background: url(/img/passport.jpg) no-repeat;
+  background-size: cover;
+}
+
+.people {
+  background: url(/img/people.jpg) no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .bag {
+    background: url(/img/bag-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .passport {
+    background: url(/img/passport-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .people {
+    background: url(/img/people-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image-content {
+    grid-template-columns: 430px;
+  }
+
+  .bag {
+    width: 430px;
+  }
+
+  .passport {
+    width: 430px;
+  }
+
+  .people {
+    width: 884px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .text-content {
+    width: 280px;
+  }
+}
