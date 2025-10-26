@@ -65,6 +65,17 @@ footer {
   margin-top: 24px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 .button {
   display: inline-block;
   width: 280px;

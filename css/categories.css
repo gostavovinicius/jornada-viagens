@@ -28,11 +28,6 @@
   height: 80px;
 }
 
-.categories-cards .card h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
 @media screen and (min-width: 768px) {
   .categories .section-title {
     width: 100%;
