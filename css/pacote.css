@@ -1,0 +1,132 @@
+.main-header .navigation-menu nav .list-links .page-current {
+  text-decoration: underline;
+}
+
+.hero-pacote {
+  text-align: left;
+}
+
+.hero .hero-pacote .title-page {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  text-align: left;
+  line-height: 1;
+  padding: 65px 0 0 24px;
+  width: 312px;
+}
+
+.hero .hero-pacote .title-page hr {
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px 0 32px;
+  background-color: var(--secondary-color);
+}
+
+.hero .hero-pacote p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: var(--text-secondary-color);
+  line-height: 32px;
+  padding: 0 0 65px 24px;
+  width: 312px;
+}
+
+.content-title {
+  margin-top: 24px;
+}
+
+.text-content h3 {
+  font-size: 40px;
+}
+
+.text-content .button {
+  text-align: center;
+  width: 312px;
+  margin-bottom: 24px;
+}
+
+.payments-pacotes .image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 254px 182px;
+  gap: 24px;
+}
+
+.image-content .kaichie {
+  background: url(/img/kaichie.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-content .dibert {
+  background: url(/img/dibert.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-content .persona {
+  background: url(/img/persona.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .hero-pacote .title-page {
+    padding: 210px 0 0 120px;
+    width: 579px;
+  }
+
+  .hero .hero-pacote p {
+    padding: 0 0 107px 120px;
+    width: 579px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments-pacotes .image-content {
+    grid-template-columns: 430px;
+  }
+
+  .kaichie {
+    width: 430px;
+  }
+
+  .dibert {
+    width: 430px;
+  }
+
+  .persona {
+    width: 884px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments-pacotes .content-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .payments-pacotes .image-content {
+    grid-template-columns: 383px;
+  }
+
+  .kaichie {
+    width: 383px;
+  }
+
+  .dibert {
+    width: 383px;
+  }
+
+  .persona {
+    width: 790px;
+  }
+
+  .text-content {
+    width: 280px;
+  }
+}
