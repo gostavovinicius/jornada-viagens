@@ -10,36 +10,36 @@
 }
 
 .bag {
-  background: url(../img/bag.jpg) no-repeat;
+  background: url("../img/bag.jpg") no-repeat;
   background-size: cover;
 }
 
 .passport {
-  background: url(/img/passport.jpg) no-repeat;
+  background: url("../img/passport.jpg") no-repeat;
   background-size: cover;
 }
 
 .people {
-  background: url(/img/people.jpg) no-repeat;
+  background: url("../img/people.jpg") no-repeat;
   background-size: cover;
   grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
   .bag {
-    background: url(/img/bag-tablet-desktop.jpg) no-repeat;
+    background: url("../img/bag-tablet-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: center;
   }
 
   .passport {
-    background: url(/img/passport-tablet-desktop.jpg) no-repeat;
+    background: url("../img/passport-tablet-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: center;
   }
 
   .people {
-    background: url(/img/people-tablet-desktop.jpg) no-repeat;
+    background: url("../img/people-tablet-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: bottom;
   }
