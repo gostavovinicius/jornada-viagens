@@ -16,18 +16,18 @@
 }
 
 .hero-footer .hero-footer-img {
-  background: url(/img/rodape-mobile.jpg) no-repeat;
+  background: url("../img/rodape-mobile.jpg") no-repeat;
   background-size: cover;
 }
 
 .hero .hero-pacote {
-  background: url(/img/japao.jpg) no-repeat;
+  background: url("../img/japao.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .hero-footer .hero-pacote-img {
-  background: url(/img/satoshi.jpg) no-repeat;
+  background: url("../img/satoshi.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -49,7 +49,7 @@
   }
 
   .hero-footer .hero-footer-img {
-    background: url(/img/rodape-tablet-desktop.jpg) no-repeat;
+    background: url("../img/rodape-tablet-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: bottom;
   }

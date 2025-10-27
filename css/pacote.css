@@ -55,19 +55,19 @@
 }
 
 .image-content .kaichie {
-  background: url(/img/kaichie.jpg) no-repeat;
+  background: url("../img/kaichie.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .image-content .dibert {
-  background: url(/img/dibert.jpg) no-repeat;
+  background: url("../img/dibert.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .image-content .persona {
-  background: url(/img/persona.jpg) no-repeat;
+  background: url("../img/persona.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   grid-column: span 2;
