@@ -49,26 +49,26 @@ section .hero-blog {
 }
 
 .tokyo {
-  background: url("/img/tokyo1.jpg") no-repeat;
+  background: url("../img/tokyo1.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .tokyo-city {
-  background: url("/img/tokyo-mobile.jpg") no-repeat;
+  background: url("../img/tokyo-mobile.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 8px;
 }
 
 .hiroshima {
-  background: url("/img/hiroshima.jpg") no-repeat;
+  background: url("../img/hiroshima.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .kyoto {
-  background: url("/img/kyoto.jpg") no-repeat;
+  background: url("../img/kyoto.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
 }
