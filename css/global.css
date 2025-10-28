@@ -59,6 +59,30 @@ section.hero-footer {
   background-color: var(--secondary-color);
 }
 
+section div .title-page {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  text-align: left;
+  line-height: 1;
+  padding: 0;
+}
+
+section div .title-page hr {
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px 0 32px;
+  background-color: var(--secondary-color);
+}
+
+section div .blog-text {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0;
+}
+
 footer {
   margin-top: 24px;
 }
