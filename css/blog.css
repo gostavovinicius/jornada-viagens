@@ -1,0 +1,116 @@
+.hero-blog {
+  height: 460px;
+  width: 100%;
+}
+
+.hero-blog-bg {
+  background: url("../img/jornada.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-content p,
+.others-posts p {
+  font-size: 20px;
+  color: var(--text-primary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  margin: 24px auto;
+  padding: 0;
+  width: 100%;
+}
+
+.content-photo {
+  height: 360px;
+  width: 100%;
+}
+
+.tokyo {
+  background: url("/img/tokyo1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tokyo-city {
+  background: url("/img/tokyo-mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 8px;
+}
+
+.hiroshima {
+  background: url("/img/hiroshima.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.kyoto {
+  background: url("/img/kyoto.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-blog {
+    height: 620px;
+    width: 100%;
+  }
+
+  section .hero-blog-bg {
+    background: url("../img/jornada.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+
+  .welcome {
+    display: flex;
+    flex: row;
+    gap: 24px;
+  }
+
+  .welcome div {
+    width: 50%;
+  }
+
+  section div .title-page {
+    width: 600px;
+    padding: 160px 262px 0 95px;
+  }
+
+  section div .blog-text {
+    font-size: 32px;
+    line-height: 1.5;
+    width: 600px;
+    padding: 0 94px 0 95px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section div .title-page {
+    width: 1024px;
+    padding: 160px 262px 0 95px;
+  }
+
+  section div .blog-text {
+    font-size: 32px;
+    line-height: 1.5;
+    width: 1024px;
+    padding: 0 94px 0 95px;
+  }
+  .others-posts .destinations-items {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .others-posts .destinations-items .img-item {
+    height: 360px;
+    width: 100%;
+  }
+}

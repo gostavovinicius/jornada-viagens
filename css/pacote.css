@@ -6,33 +6,6 @@
   text-align: left;
 }
 
-.hero .hero-pacote .title-page {
-  font-size: 48px;
-  font-weight: var(--title-weight);
-  color: var(--text-secondary-color);
-  text-align: left;
-  line-height: 1;
-  padding: 65px 0 0 24px;
-  width: 312px;
-}
-
-.hero .hero-pacote .title-page hr {
-  width: 180px;
-  height: 4px;
-  border: none;
-  margin: 16px 0 32px;
-  background-color: var(--secondary-color);
-}
-
-.hero .hero-pacote p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  color: var(--text-secondary-color);
-  line-height: 32px;
-  padding: 0 0 65px 24px;
-  width: 312px;
-}
-
 .content-title {
   margin-top: 24px;
 }
