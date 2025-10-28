@@ -1,3 +1,8 @@
+section .hero-blog {
+  margin: 0;
+}
+
+.hero-pacote,
 .hero-blog {
   height: 460px;
   width: 100%;
@@ -7,6 +12,19 @@
   background: url("../img/jornada.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100%;
+}
+
+.hero-pacote {
+  background: url("../img/japao.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-pacote,
+.hero-blog-bg {
+  padding: 65px 24px;
+  text-align: left;
 }
 
 .post-content {
@@ -56,16 +74,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-pacote,
   .hero-blog {
     height: 620px;
     width: 100%;
   }
 
-  section .hero-blog-bg {
-    background: url("../img/jornada.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+  .hero-pacote,
+  .hero-blog-bg {
+    padding: 209px 69px 107px 120px;
+    text-align: left;
   }
 
   .welcome {
@@ -80,29 +98,33 @@
 
   section div .title-page {
     width: 600px;
-    padding: 160px 262px 0 95px;
   }
 
   section div .blog-text {
     font-size: 32px;
     line-height: 1.5;
     width: 600px;
-    padding: 0 94px 0 95px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  section div .title-page {
-    width: 1024px;
-    padding: 160px 262px 0 95px;
+  .hero-pacote,
+  .hero-blog {
+    height: 620px;
+    width: 100%;
   }
 
   section div .blog-text {
     font-size: 32px;
     line-height: 1.5;
-    width: 1024px;
-    padding: 0 94px 0 95px;
   }
+
+  .hero-pacote,
+  .hero-blog-bg {
+    padding: 158px 741px 158px 120px;
+    text-align: left;
+  }
+
   .others-posts .destinations-items {
     display: flex;
     flex-direction: row;
