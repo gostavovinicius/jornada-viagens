@@ -1,7 +1,3 @@
-.main-header .navigation-menu nav .list-links .page-current {
-  text-decoration: underline;
-}
-
 .content-title {
   margin-top: 24px;
 }
@@ -24,9 +20,7 @@
 }
 
 .image-content .kaichie {
-  background: url("../img/kaichie.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url("../img/kaichie.jpg");
 }
 
 .image-content .dibert {
@@ -40,14 +34,6 @@
   background-position: center;
   background-size: cover;
   grid-column: span 2;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-pacote,
-  .hero-blog-bg {
-    padding: 209px 69px 107px 120px;
-    text-align: left;
-  }
 }
 
 @media screen and (min-width: 1024px) {

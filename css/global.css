@@ -25,6 +25,10 @@ body {
   color: var(--text-primary-color);
 }
 
+.main-header .navigation-menu nav .list-links .page-current {
+  text-decoration: underline;
+}
+
 section {
   width: 312px;
   margin: 0 auto 88px;
